@@ -17,15 +17,15 @@ int main(void)
 	{
 		if (n % 3 == 0)
 		{
-			printf("%d Fizz\n", n);
+			printf("Fizz");
 		}
 		else if (n % 5 == 0)
 		{
-			printf("%d Buzz\n", n);
+			printf("Buzz");
 		}
 		else if (n % 15 == 0)
 		{
-			printf("%d FizzBuzz\n", n);
+			printf("FizzBuzz");
 		}
 		else
 		{
