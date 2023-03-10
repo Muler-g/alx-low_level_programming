@@ -1,1 +1,1 @@
-low leALX C programing projects at ALX
+low level C programing projects at ALX
