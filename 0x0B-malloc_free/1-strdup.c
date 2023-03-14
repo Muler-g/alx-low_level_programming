@@ -7,8 +7,8 @@
  * containing a copy of the string given as parameter.
  * @str: string to copy
  *
- * Return: a pointer to the duplicated string or
- * Null if insufficient memory or str == NULL
+ * Return: Null if insufficient memory or str == NULL
+ * else a pointer to the duplicated string.
  */
 
 char *_strdup(char *str)
@@ -19,7 +19,8 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	for (i = 0; str[i]; i++)
+	for (i = 0; str[i] != '\0';)
+		i++;
 
 	strcopy = malloc(i * sizeof(char));
 
