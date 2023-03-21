@@ -3,14 +3,15 @@
 #include "dog.h"
 
 /**
- * new_dog - creates a new dog 
+ * new_dog - creates a new dog
  * @name: name of the new dog
  * @age: age of the new dog
  * @owner: owner of the new dog
  *
  * Return: NULL on fail
  */
-dog_t *new_dog(char *name, float age, char *owner){
+dog_t *new_dog(char *name, float age, char *owner)
+{
 	dog_t *newDog;
 	int lName, lOwner, i;
 
